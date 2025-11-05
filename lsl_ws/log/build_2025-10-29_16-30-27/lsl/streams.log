@@ -1,0 +1,137 @@
+[0.009s] Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+[0.034s] [  2%] Built target lsl__cpp
+[0.036s] [ 11%] Built target lsl__rosidl_generator_c
+[0.037s] [ 11%] Built target ament_cmake_python_symlink_lsl
+[0.039s] [ 17%] Built target lsl_node
+[0.042s] [ 25%] Built target lsl__rosidl_typesupport_cpp
+[0.043s] [ 34%] Built target lsl__rosidl_typesupport_introspection_cpp
+[0.044s] [ 42%] Built target lsl__rosidl_typesupport_fastrtps_cpp
+[0.044s] [ 51%] Built target lsl__rosidl_typesupport_fastrtps_c
+[0.045s] [ 60%] Built target lsl__rosidl_typesupport_c
+[0.046s] [ 68%] Built target lsl__rosidl_typesupport_introspection_c
+[0.053s] [ 68%] Built target lsl
+[0.055s] [ 71%] [32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o[0m
+[0.060s] [ 74%] Built target lsl__py
+[0.067s] [ 80%] Built target lsl__rosidl_generator_py
+[0.077s] [ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext
+[0.077s] [ 97%] Built target lsl__rosidl_typesupport_c__pyext
+[0.077s] [ 97%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext
+[0.167s] running egg_info
+[0.168s] writing lsl.egg-info/PKG-INFO
+[0.168s] writing dependency_links to lsl.egg-info/dependency_links.txt
+[0.168s] writing top-level names to lsl.egg-info/top_level.txt
+[0.169s] reading manifest file 'lsl.egg-info/SOURCES.txt'
+[0.169s] writing manifest file 'lsl.egg-info/SOURCES.txt'
+[0.185s] [ 97%] Built target ament_cmake_python_build_lsl_egg
+[2.410s] [100%] [1m[32mLinking CXX executable EEG_Stream_to_ROS[0m
+[2.512s] [100%] Built target EEG_Stream_to_ROS
+[2.517s] Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+[2.523s] Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aokilab/lab/lsl_ws/build/lsl
+[2.526s] -- Install configuration: ""
+[2.526s] -- Execute custom install script
+[2.526s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/rosidl_interfaces/lsl
+[2.529s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__functions.h
+[2.532s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__struct.h
+[2.536s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__type_support.h
+[2.538s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/eeg.h
+[2.541s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_generator_c__visibility_control.h
+[2.543s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/library_path.sh
+[2.546s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/library_path.dsv
+[2.548s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_fastrtps_c.h
+[2.550s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.553s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__builder.hpp
+[2.555s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__struct.hpp
+[2.559s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__traits.hpp
+[2.561s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__type_support.hpp
+[2.564s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/eeg.hpp
+[2.566s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.569s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.571s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.573s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_introspection_c.h
+[2.576s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.578s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_introspection_cpp.hpp
+[2.580s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/pythonpath.sh
+[2.583s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/pythonpath.dsv
+[2.585s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/PKG-INFO
+[2.588s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.591s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.593s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/top_level.txt
+[2.595s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/__init__.py
+[2.598s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_c.c
+[2.600s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.602s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_introspection_c.c
+[2.604s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/liblsl__rosidl_generator_py.so
+[2.607s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.610s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.613s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.615s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/__init__.py
+[2.618s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg.py
+[2.620s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg_s.c
+[2.623s] -- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.623s] -- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.623s] -- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.624s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/msg/Eeg.idl
+[2.626s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/msg/Eeg.msg
+[2.629s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/lib/lsl/lsl_node
+[2.632s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/lib/lsl/EEG_Stream_to_ROS
+[2.634s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/package_run_dependencies/lsl
+[2.637s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/parent_prefix_path/lsl
+[2.640s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/ament_prefix_path.sh
+[2.642s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/ament_prefix_path.dsv
+[2.645s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/path.sh
+[2.647s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/path.dsv
+[2.649s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.bash
+[2.652s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.sh
+[2.654s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.zsh
+[2.657s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.dsv
+[2.659s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/package.dsv
+[2.662s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/packages/lsl
+[2.664s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake-extras.cmake
+[2.667s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.670s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.672s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_libraries-extras.cmake
+[2.675s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_targets-extras.cmake
+[2.677s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.680s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.682s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lslConfig.cmake
+[2.684s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lslConfig-version.cmake
+[2.687s] -- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/package.xml
+[2.690s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_c.so
+[2.690s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_c.so" to ""
+[2.690s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_c.so
+[2.690s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_c.so" to ""
+[2.690s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_cpp.so
+[2.690s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.690s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_c.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_c.so" to ""
+[2.691s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_c.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_c.so" to ""
+[2.691s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_cpp.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_cpp.so" to ""
+[2.691s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_cpp.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_cpp.so" to ""
+[2.714s] Listing '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl'...
+[2.714s] Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/__init__.py'...
+[2.714s] Listing '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg'...
+[2.714s] Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/__init__.py'...
+[2.714s] Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg.py'...
+[2.716s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_py.so
+[2.717s] -- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_py.so" to ""
+[2.717s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cExport.cmake
+[2.718s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cExport-noconfig.cmake
+[2.718s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cExport.cmake
+[2.718s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cppExport.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cExport.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.719s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cExport.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cExport-noconfig.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cppExport.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cppExport.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cppExport-noconfig.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_pyExport.cmake
+[2.720s] -- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_pyExport-noconfig.cmake
+[2.722s] Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aokilab/lab/lsl_ws/build/lsl

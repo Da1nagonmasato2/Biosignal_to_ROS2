@@ -1,0 +1,100 @@
+[0.008s] Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+[0.024s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.024s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.024s]   CMake.
+[0.024s] 
+[0.024s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.024s]   to tell CMake that the project requires at least <min> but has been updated
+[0.024s]   to work with policies introduced by <max> or earlier.
+[0.024s] 
+[0.024s] [0m
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.314s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.563s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.224s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.224s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.225s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.225s]   the cmake_policy command to set the policy and suppress this warning.
+[1.225s] 
+[1.225s] Call Stack (most recent call first):
+[1.225s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.225s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.225s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.225s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.225s] [0m
+[1.240s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.240s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.240s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.240s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.240s]   the cmake_policy command to set the policy and suppress this warning.
+[1.240s] 
+[1.240s] Call Stack (most recent call first):
+[1.240s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.240s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.241s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.241s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.241s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.241s] [0m
+[1.253s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.253s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.253s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.253s]   the cmake_policy command to set the policy and suppress this warning.
+[1.253s] 
+[1.253s] Call Stack (most recent call first):
+[1.253s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.253s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.253s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.253s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.253s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.254s] [0m
+[1.254s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.254s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.254s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.273s] -- Configuring done (1.2s)
+[1.295s] -- Generating done (0.0s)
+[1.300s] -- Build files have been written to: /home/aokilab/lab/lsl_ws/build/lsl
+[1.320s] [  2%] Built target lsl__cpp
+[1.322s] [ 11%] Built target lsl__rosidl_generator_c
+[1.323s] [ 11%] Built target ament_cmake_python_symlink_lsl
+[1.331s] [ 20%] Built target lsl__rosidl_typesupport_fastrtps_cpp
+[1.331s] [ 28%] Built target lsl__rosidl_typesupport_introspection_c
+[1.331s] [ 42%] Built target lsl__rosidl_typesupport_cpp
+[1.331s] [ 45%] Built target lsl__rosidl_typesupport_introspection_cpp
+[1.332s] [ 54%] Built target lsl__rosidl_typesupport_c
+[1.332s] [ 62%] Built target lsl__rosidl_typesupport_fastrtps_c
+[1.339s] [ 65%] [32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o[0m
+[1.340s] [ 65%] Built target lsl
+[1.343s] [ 71%] Built target lsl_node
+[1.348s] [ 74%] Built target lsl__py
+[1.356s] [ 80%] Built target lsl__rosidl_generator_py
+[1.366s] [ 91%] Built target lsl__rosidl_typesupport_c__pyext
+[1.366s] [ 91%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext
+[1.366s] [ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext
+[1.435s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Klsl/msg/eeg.hpp: そのようなファイルやディレクトリはありません
+[1.435s]     3 | #include [01;31m[K"lsl/msg/eeg.hpp"[m[K  // 生成されるメッセージ
+[1.435s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.436s] compilation terminated.
+[1.439s] gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] エラー 1
+[1.439s] gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/EEG_Stream_to_ROS.dir/all] エラー 2
+[1.440s] gmake[1]: *** 未完了のジョブを待っています....
+[1.456s] running egg_info
+[1.456s] writing lsl.egg-info/PKG-INFO
+[1.456s] writing dependency_links to lsl.egg-info/dependency_links.txt
+[1.456s] writing top-level names to lsl.egg-info/top_level.txt
+[1.457s] reading manifest file 'lsl.egg-info/SOURCES.txt'
+[1.458s] writing manifest file 'lsl.egg-info/SOURCES.txt'
+[1.472s] [ 97%] Built target ament_cmake_python_build_lsl_egg
+[1.473s] gmake: *** [Makefile:146: all] エラー 2
+[1.475s] Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22

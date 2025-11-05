@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (lsl) JobQueued: {'identifier': 'lsl', 'dependencies': OrderedDict()}
+[0.000598] (lsl) JobStarted: {'identifier': 'lsl'}
+[0.005497] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'cmake'}
+[0.006964] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'build'}
+[0.008304] (lsl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aokilab/lab/lsl_ws/build/lsl', '--', '-j22', '-l22'], 'cwd': '/home/aokilab/lab/lsl_ws/build/lsl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'aokilab'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aokilab'), ('OLDPWD', '/home/aokilab/lab/lsl_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aokilab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aokilab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aokilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aokilab/.dotnet/tools'), ('SESSION_MANAGER', 'local/aokilab-AMR:@/tmp/.ICE-unix/2454,unix/aokilab-AMR:/tmp/.ICE-unix/2454'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7429b41c_d6fd_4b07_be44_07a72c98dd74'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/aokilab/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86F7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aokilab/lab/lsl_ws/build/lsl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024407] (lsl) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.024562] (lsl) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.024615] (lsl) StderrLine: {'line': b'  CMake.\n'}
+[0.024658] (lsl) StderrLine: {'line': b'\n'}
+[0.024698] (lsl) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.024738] (lsl) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.024779] (lsl) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.024819] (lsl) StderrLine: {'line': b'\n'}
+[0.024857] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[0.027714] (lsl) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099772] (-) TimerEvent: {}
+[0.153127] (lsl) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.156882] (lsl) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.172842] (lsl) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.174245] (lsl) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.177621] (lsl) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.182672] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.189372] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199829] (-) TimerEvent: {}
+[0.208899] (lsl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.209619] (lsl) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.280547] (lsl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299904] (-) TimerEvent: {}
+[0.314774] (lsl) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400001] (-) TimerEvent: {}
+[0.500239] (-) TimerEvent: {}
+[0.563354] (lsl) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600327] (-) TimerEvent: {}
+[0.700607] (-) TimerEvent: {}
+[0.800920] (-) TimerEvent: {}
+[0.901251] (-) TimerEvent: {}
+[1.001514] (-) TimerEvent: {}
+[1.035446] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101620] (-) TimerEvent: {}
+[1.201996] (-) TimerEvent: {}
+[1.223705] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.224865] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.225024] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.225127] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.225209] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.225290] (lsl) StderrLine: {'line': b'\n'}
+[1.225368] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.225460] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.225548] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.225627] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.225706] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.225776] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.240065] (lsl) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.240464] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.240603] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.240693] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.240770] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.240844] (lsl) StderrLine: {'line': b'\n'}
+[1.240915] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.240986] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.241056] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.241126] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.241196] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.241265] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.241334] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.253182] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.253352] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.253450] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.253534] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.253607] (lsl) StderrLine: {'line': b'\n'}
+[1.253678] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.253749] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.253820] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.253891] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.253961] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.254037] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.254107] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.254388] (lsl) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.254549] (lsl) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.254638] (lsl) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.273221] (lsl) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.295388] (lsl) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.300700] (lsl) StdoutLine: {'line': b'-- Build files have been written to: /home/aokilab/lab/lsl_ws/build/lsl\n'}
+[1.302086] (-) TimerEvent: {}
+[1.320837] (lsl) StdoutLine: {'line': b'[  2%] Built target lsl__cpp\n'}
+[1.322739] (lsl) StdoutLine: {'line': b'[ 11%] Built target lsl__rosidl_generator_c\n'}
+[1.323175] (lsl) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_lsl\n'}
+[1.331432] (lsl) StdoutLine: {'line': b'[ 20%] Built target lsl__rosidl_typesupport_fastrtps_cpp\n'}
+[1.331925] (lsl) StdoutLine: {'line': b'[ 28%] Built target lsl__rosidl_typesupport_introspection_c\n'}
+[1.332052] (lsl) StdoutLine: {'line': b'[ 42%] Built target lsl__rosidl_typesupport_cpp\n'}
+[1.332082] (lsl) StdoutLine: {'line': b'[ 45%] Built target lsl__rosidl_typesupport_introspection_cpp\n'}
+[1.332721] (lsl) StdoutLine: {'line': b'[ 54%] Built target lsl__rosidl_typesupport_c\n'}
+[1.333043] (lsl) StdoutLine: {'line': b'[ 62%] Built target lsl__rosidl_typesupport_fastrtps_c\n'}
+[1.339934] (lsl) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o\x1b[0m\n'}
+[1.340223] (lsl) StdoutLine: {'line': b'[ 65%] Built target lsl\n'}
+[1.343840] (lsl) StdoutLine: {'line': b'[ 71%] Built target lsl_node\n'}
+[1.348539] (lsl) StdoutLine: {'line': b'[ 74%] Built target lsl__py\n'}
+[1.356879] (lsl) StdoutLine: {'line': b'[ 80%] Built target lsl__rosidl_generator_py\n'}
+[1.366763] (lsl) StdoutLine: {'line': b'[ 91%] Built target lsl__rosidl_typesupport_c__pyext\n'}
+[1.366944] (lsl) StdoutLine: {'line': b'[ 91%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.367007] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext\n'}
+[1.402191] (-) TimerEvent: {}
+[1.435693] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Klsl/msg/eeg.hpp: \xe3\x81\x9d\xe3\x81\xae\xe3\x82\x88\xe3\x81\x86\xe3\x81\xaa\xe3\x83\x95\xe3\x82\xa1\xe3\x82\xa4\xe3\x83\xab\xe3\x82\x84\xe3\x83\x87\xe3\x82\xa3\xe3\x83\xac\xe3\x82\xaf\xe3\x83\x88\xe3\x83\xaa\xe3\x81\xaf\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93\n'}
+[1.435924] (lsl) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"lsl/msg/eeg.hpp"\x1b[m\x1b[K  // \xe7\x94\x9f\xe6\x88\x90\xe3\x81\x95\xe3\x82\x8c\xe3\x82\x8b\xe3\x83\xa1\xe3\x83\x83\xe3\x82\xbb\xe3\x83\xbc\xe3\x82\xb8\n'}
+[1.436025] (lsl) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.436110] (lsl) StderrLine: {'line': b'compilation terminated.\n'}
+[1.439677] (lsl) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[1.439990] (lsl) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:763: CMakeFiles/EEG_Stream_to_ROS.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[1.440139] (lsl) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[1.456260] (lsl) StdoutLine: {'line': b'running egg_info\n'}
+[1.456639] (lsl) StdoutLine: {'line': b'writing lsl.egg-info/PKG-INFO\n'}
+[1.456776] (lsl) StdoutLine: {'line': b'writing dependency_links to lsl.egg-info/dependency_links.txt\n'}
+[1.456863] (lsl) StdoutLine: {'line': b'writing top-level names to lsl.egg-info/top_level.txt\n'}
+[1.457910] (lsl) StdoutLine: {'line': b"reading manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[1.458072] (lsl) StdoutLine: {'line': b"writing manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[1.472083] (lsl) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_lsl_egg\n'}
+[1.473050] (lsl) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[1.475314] (lsl) CommandEnded: {'returncode': 2}
+[1.480151] (lsl) JobEnded: {'identifier': 'lsl', 'rc': 2}
+[1.490409] (-) EventReactorShutdown: {}

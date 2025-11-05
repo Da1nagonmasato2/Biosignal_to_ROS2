@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lsl__py",
+		"source" : "/home/aokilab/lab/lsl_ws/build/lsl/lsl__py"
+	}
+}

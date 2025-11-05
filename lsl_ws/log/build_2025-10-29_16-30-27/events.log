@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (lsl) JobQueued: {'identifier': 'lsl', 'dependencies': OrderedDict()}
+[0.000984] (lsl) JobStarted: {'identifier': 'lsl'}
+[0.007386] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'cmake'}
+[0.008621] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'build'}
+[0.009684] (lsl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aokilab/lab/lsl_ws/build/lsl', '--', '-j22', '-l22'], 'cwd': '/home/aokilab/lab/lsl_ws/build/lsl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'aokilab'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aokilab'), ('OLDPWD', '/home/aokilab/lab/lsl_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aokilab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aokilab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aokilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aokilab/.dotnet/tools'), ('SESSION_MANAGER', 'local/aokilab-AMR:@/tmp/.ICE-unix/2454,unix/aokilab-AMR:/tmp/.ICE-unix/2454'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7429b41c_d6fd_4b07_be44_07a72c98dd74'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/aokilab/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86F7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aokilab/lab/lsl_ws/build/lsl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034820] (lsl) StdoutLine: {'line': b'[  2%] Built target lsl__cpp\n'}
+[0.037123] (lsl) StdoutLine: {'line': b'[ 11%] Built target lsl__rosidl_generator_c\n'}
+[0.038268] (lsl) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_lsl\n'}
+[0.039515] (lsl) StdoutLine: {'line': b'[ 17%] Built target lsl_node\n'}
+[0.043216] (lsl) StdoutLine: {'line': b'[ 25%] Built target lsl__rosidl_typesupport_cpp\n'}
+[0.044040] (lsl) StdoutLine: {'line': b'[ 34%] Built target lsl__rosidl_typesupport_introspection_cpp\n'}
+[0.045028] (lsl) StdoutLine: {'line': b'[ 42%] Built target lsl__rosidl_typesupport_fastrtps_cpp\n'}
+[0.045207] (lsl) StdoutLine: {'line': b'[ 51%] Built target lsl__rosidl_typesupport_fastrtps_c\n'}
+[0.045760] (lsl) StdoutLine: {'line': b'[ 60%] Built target lsl__rosidl_typesupport_c\n'}
+[0.046535] (lsl) StdoutLine: {'line': b'[ 68%] Built target lsl__rosidl_typesupport_introspection_c\n'}
+[0.054317] (lsl) StdoutLine: {'line': b'[ 68%] Built target lsl\n'}
+[0.056408] (lsl) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o\x1b[0m\n'}
+[0.060532] (lsl) StdoutLine: {'line': b'[ 74%] Built target lsl__py\n'}
+[0.068142] (lsl) StdoutLine: {'line': b'[ 80%] Built target lsl__rosidl_generator_py\n'}
+[0.078083] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext\n'}
+[0.078243] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_c__pyext\n'}
+[0.078307] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.100015] (-) TimerEvent: {}
+[0.168177] (lsl) StdoutLine: {'line': b'running egg_info\n'}
+[0.168670] (lsl) StdoutLine: {'line': b'writing lsl.egg-info/PKG-INFO\n'}
+[0.168810] (lsl) StdoutLine: {'line': b'writing dependency_links to lsl.egg-info/dependency_links.txt\n'}
+[0.168896] (lsl) StdoutLine: {'line': b'writing top-level names to lsl.egg-info/top_level.txt\n'}
+[0.169870] (lsl) StdoutLine: {'line': b"reading manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[0.170206] (lsl) StdoutLine: {'line': b"writing manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[0.185539] (lsl) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_lsl_egg\n'}
+[0.200117] (-) TimerEvent: {}
+[0.300488] (-) TimerEvent: {}
+[0.401008] (-) TimerEvent: {}
+[0.501327] (-) TimerEvent: {}
+[0.601653] (-) TimerEvent: {}
+[0.701979] (-) TimerEvent: {}
+[0.802308] (-) TimerEvent: {}
+[0.902638] (-) TimerEvent: {}
+[1.002979] (-) TimerEvent: {}
+[1.103342] (-) TimerEvent: {}
+[1.203758] (-) TimerEvent: {}
+[1.304103] (-) TimerEvent: {}
+[1.404428] (-) TimerEvent: {}
+[1.504758] (-) TimerEvent: {}
+[1.605090] (-) TimerEvent: {}
+[1.705477] (-) TimerEvent: {}
+[1.805930] (-) TimerEvent: {}
+[1.906238] (-) TimerEvent: {}
+[2.006550] (-) TimerEvent: {}
+[2.106857] (-) TimerEvent: {}
+[2.207176] (-) TimerEvent: {}
+[2.307487] (-) TimerEvent: {}
+[2.407828] (-) TimerEvent: {}
+[2.410941] (lsl) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable EEG_Stream_to_ROS\x1b[0m\n'}
+[2.507956] (-) TimerEvent: {}
+[2.512480] (lsl) StdoutLine: {'line': b'[100%] Built target EEG_Stream_to_ROS\n'}
+[2.518138] (lsl) CommandEnded: {'returncode': 0}
+[2.518878] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'install'}
+[2.523523] (lsl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aokilab/lab/lsl_ws/build/lsl'], 'cwd': '/home/aokilab/lab/lsl_ws/build/lsl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'aokilab'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aokilab'), ('OLDPWD', '/home/aokilab/lab/lsl_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aokilab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aokilab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aokilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aokilab/.dotnet/tools'), ('SESSION_MANAGER', 'local/aokilab-AMR:@/tmp/.ICE-unix/2454,unix/aokilab-AMR:/tmp/.ICE-unix/2454'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7429b41c_d6fd_4b07_be44_07a72c98dd74'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/aokilab/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86F7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aokilab/lab/lsl_ws/build/lsl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.526916] (lsl) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.527210] (lsl) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.527339] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/rosidl_interfaces/lsl\n'}
+[2.530396] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__functions.h\n'}
+[2.532897] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__struct.h\n'}
+[2.536454] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__type_support.h\n'}
+[2.539287] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/eeg.h\n'}
+[2.541749] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.543805] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/library_path.sh\n'}
+[2.546497] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/library_path.dsv\n'}
+[2.548642] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.551218] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.553891] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__builder.hpp\n'}
+[2.556389] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__struct.hpp\n'}
+[2.559716] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__traits.hpp\n'}
+[2.562183] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__type_support.hpp\n'}
+[2.564564] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/eeg.hpp\n'}
+[2.566809] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.569628] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.571768] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.574362] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_introspection_c.h\n'}
+[2.576618] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.579020] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/include/lsl/lsl/msg/detail/eeg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.581300] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/pythonpath.sh\n'}
+[2.583666] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/pythonpath.dsv\n'}
+[2.586075] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.589315] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.591651] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.593827] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.596346] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/__init__.py\n'}
+[2.598538] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_c.c\n'}
+[2.600799] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.603043] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/_lsl_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.605175] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/liblsl__rosidl_generator_py.so\n'}
+[2.607477] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.608006] (-) TimerEvent: {}
+[2.611227] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.614006] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.616262] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/__init__.py\n'}
+[2.618694] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg.py\n'}
+[2.620933] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg_s.c\n'}
+[2.624293] (lsl) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.624402] (lsl) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.624438] (lsl) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/lsl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.624492] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/msg/Eeg.idl\n'}
+[2.626834] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/msg/Eeg.msg\n'}
+[2.629987] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/lib/lsl/lsl_node\n'}
+[2.632461] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/lib/lsl/EEG_Stream_to_ROS\n'}
+[2.635054] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/package_run_dependencies/lsl\n'}
+[2.637835] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/parent_prefix_path/lsl\n'}
+[2.641177] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/ament_prefix_path.sh\n'}
+[2.643418] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/ament_prefix_path.dsv\n'}
+[2.645508] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/path.sh\n'}
+[2.647676] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/environment/path.dsv\n'}
+[2.650235] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.bash\n'}
+[2.652662] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.sh\n'}
+[2.655068] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.zsh\n'}
+[2.658027] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/local_setup.dsv\n'}
+[2.660247] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/package.dsv\n'}
+[2.662705] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/ament_index/resource_index/packages/lsl\n'}
+[2.665189] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake-extras.cmake\n'}
+[2.668347] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.670893] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.673202] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.675741] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.678194] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.680492] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.682885] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lslConfig.cmake\n'}
+[2.685220] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lslConfig-version.cmake\n'}
+[2.687688] (lsl) StdoutLine: {'line': b'-- Symlinking: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/package.xml\n'}
+[2.690619] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_c.so\n'}
+[2.690834] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_c.so" to ""\n'}
+[2.690931] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_c.so\n'}
+[2.691067] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.691149] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.691318] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.691400] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_c.so\n'}
+[2.691504] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.691585] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_c.so\n'}
+[2.691677] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_c.so" to ""\n'}
+[2.691760] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_cpp.so\n'}
+[2.691898] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.691994] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_cpp.so\n'}
+[2.692081] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_typesupport_cpp.so" to ""\n'}
+[2.708076] (-) TimerEvent: {}
+[2.714974] (lsl) StdoutLine: {'line': b"Listing '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl'...\n"}
+[2.715085] (lsl) StdoutLine: {'line': b"Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/__init__.py'...\n"}
+[2.715146] (lsl) StdoutLine: {'line': b"Listing '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg'...\n"}
+[2.715215] (lsl) StdoutLine: {'line': b"Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/__init__.py'...\n"}
+[2.715280] (lsl) StdoutLine: {'line': b"Compiling '/home/aokilab/lab/lsl_ws/install/lsl/local/lib/python3.10/dist-packages/lsl/msg/_eeg.py'...\n"}
+[2.717352] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_py.so\n'}
+[2.717667] (lsl) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aokilab/lab/lsl_ws/install/lsl/lib/liblsl__rosidl_generator_py.so" to ""\n'}
+[2.717751] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cExport.cmake\n'}
+[2.718710] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.718857] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.718985] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.719491] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_cppExport.cmake\n'}
+[2.719976] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.720086] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.720194] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.720293] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.720379] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cExport.cmake\n'}
+[2.720461] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.720556] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.720638] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.720727] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cppExport.cmake\n'}
+[2.720810] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/lsl__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.720895] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_pyExport.cmake\n'}
+[2.720996] (lsl) StdoutLine: {'line': b'-- Installing: /home/aokilab/lab/lsl_ws/install/lsl/share/lsl/cmake/export_lsl__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.722843] (lsl) CommandEnded: {'returncode': 0}
+[2.739198] (lsl) JobEnded: {'identifier': 'lsl', 'rc': 0}
+[2.740122] (-) EventReactorShutdown: {}

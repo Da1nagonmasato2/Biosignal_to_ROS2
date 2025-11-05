@@ -1,0 +1,2 @@
+Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22

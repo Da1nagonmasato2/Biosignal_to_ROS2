@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aokilab/lab/lsl_ws/build/lsl/lsl_node" "/home/aokilab/lab/lsl_ws/build/lsl/EEG_Stream_to_ROS" "TARGETS" "lsl_node" "EEG_Stream_to_ROS" "DESTINATION" "lib/lsl")

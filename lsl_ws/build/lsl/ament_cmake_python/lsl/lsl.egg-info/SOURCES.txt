@@ -1,0 +1,8 @@
+setup.py
+lsl/__init__.py
+lsl.egg-info/PKG-INFO
+lsl.egg-info/SOURCES.txt
+lsl.egg-info/dependency_links.txt
+lsl.egg-info/top_level.txt
+lsl/msg/__init__.py
+lsl/msg/_eeg.py

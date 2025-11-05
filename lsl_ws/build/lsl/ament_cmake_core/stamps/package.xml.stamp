@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lsl</name>
+  <version>0.0.0</version>
+  <description>LSL to ROS2 bridge package</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- ビルドツール依存 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- メッセージ生成依存 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+　<member_of_group>rosidl_interface_packages</member_of_group>
+  <!-- ノード依存 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>eeg_msgs</depend>
+
+  <!-- interface パッケージとして登録 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    
+  </export>
+</package>
+

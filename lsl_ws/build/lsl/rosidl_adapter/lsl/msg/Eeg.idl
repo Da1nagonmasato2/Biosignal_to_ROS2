@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lsl/msg/Eeg.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module lsl {
+  module msg {
+    struct Eeg {
+      std_msgs::msg::Header header;
+
+      sequence<string> channel_names;
+
+      sequence<float> data;
+
+      double timestamp;
+    };
+  };
+};

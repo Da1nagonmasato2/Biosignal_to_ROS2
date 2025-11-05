@@ -1,0 +1,33 @@
+[  2%] Built target lsl__cpp
+[ 11%] Built target lsl__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_lsl
+[ 17%] Built target lsl_node
+[ 25%] Built target lsl__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target lsl__rosidl_typesupport_introspection_c
+[ 42%] Built target lsl__rosidl_typesupport_cpp
+[ 51%] Built target lsl__rosidl_typesupport_introspection_cpp
+[ 68%] Built target lsl__rosidl_typesupport_fastrtps_c
+[ 68%] Built target lsl__rosidl_typesupport_c
+[ 71%] [32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o[0m
+[ 71%] Built target lsl
+[ 74%] Built target lsl__py
+[ 80%] Built target lsl__rosidl_generator_py
+[ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target lsl__rosidl_typesupport_c__pyext
+[ 97%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing lsl.egg-info/PKG-INFO
+writing dependency_links to lsl.egg-info/dependency_links.txt
+writing top-level names to lsl.egg-info/top_level.txt
+reading manifest file 'lsl.egg-info/SOURCES.txt'
+writing manifest file 'lsl.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lsl_egg
+[01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:[m[K In constructor ‘[01m[KEEGStreamNode::EEGStreamNode()[m[K’:
+[01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:23:46:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kch[m[K’ from ‘[01m[Klsl::xml_element[m[K’ to ‘[01m[Kbool[m[K’
+   23 |     for (auto ch = ch_info.child("channel"); [01;31m[Kch[m[K; ch = ch.next_sibling("channel")) {
+      |                                              [01;31m[K^~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[Klsl::xml_element[m[K
+gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/EEG_Stream_to_ROS.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

@@ -1,0 +1,213 @@
+[0.008s] Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+[0.025s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.025s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.025s]   CMake.
+[0.025s] 
+[0.025s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.025s]   to tell CMake that the project requires at least <min> but has been updated
+[0.025s]   to work with policies introduced by <max> or earlier.
+[0.026s] 
+[0.026s] [0m
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.209s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.585s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.240s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.240s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.240s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.240s]   the cmake_policy command to set the policy and suppress this warning.
+[1.240s] 
+[1.240s] Call Stack (most recent call first):
+[1.240s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.240s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.240s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.241s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.241s] [0m
+[1.251s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.252s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.252s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.252s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.252s]   the cmake_policy command to set the policy and suppress this warning.
+[1.252s] 
+[1.252s] Call Stack (most recent call first):
+[1.252s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.252s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.252s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.253s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.253s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.253s] [0m
+[1.262s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.263s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.263s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.263s]   the cmake_policy command to set the policy and suppress this warning.
+[1.263s] 
+[1.263s] Call Stack (most recent call first):
+[1.263s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.263s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.263s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.263s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.263s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.263s] [0m
+[1.264s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.264s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.264s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.282s] -- Configuring done (1.3s)
+[1.304s] -- Generating done (0.0s)
+[1.310s] -- Build files have been written to: /home/aokilab/lab/lsl_ws/build/lsl
+[1.331s] [  2%] Built target lsl__cpp
+[1.332s] [ 11%] Built target lsl__rosidl_generator_c
+[1.334s] [ 11%] Built target ament_cmake_python_symlink_lsl
+[1.337s] [ 17%] Built target lsl_node
+[1.340s] [ 25%] Built target lsl__rosidl_typesupport_fastrtps_cpp
+[1.341s] [ 34%] Built target lsl__rosidl_typesupport_introspection_cpp
+[1.341s] [ 48%] Built target lsl__rosidl_typesupport_fastrtps_c
+[1.341s] [ 51%] Built target lsl__rosidl_typesupport_c
+[1.341s] [ 68%] Built target lsl__rosidl_typesupport_introspection_c
+[1.341s] [ 68%] Built target lsl__rosidl_typesupport_cpp
+[1.349s] [ 71%] [32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o[0m
+[1.349s] [ 71%] Built target lsl
+[1.357s] [ 74%] Built target lsl__py
+[1.366s] [ 80%] Built target lsl__rosidl_generator_py
+[1.376s] [ 85%] Built target lsl__rosidl_typesupport_c__pyext
+[1.377s] [ 97%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext
+[1.377s] [ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext
+[1.469s] running egg_info
+[1.470s] writing lsl.egg-info/PKG-INFO
+[1.470s] writing dependency_links to lsl.egg-info/dependency_links.txt
+[1.470s] writing top-level names to lsl.egg-info/top_level.txt
+[1.471s] reading manifest file 'lsl.egg-info/SOURCES.txt'
+[1.471s] writing manifest file 'lsl.egg-info/SOURCES.txt'
+[1.487s] [ 97%] Built target ament_cmake_python_build_lsl_egg
+[2.496s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klsl_bridge[m[K’ was not declared in this scope
+[2.496s]    65 |   rclcpp::Publisher<[01;31m[Klsl_bridge[m[K::msg::Emg>::SharedPtr publisher_;
+[2.496s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[2.496s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.496s]    65 |   rclcpp::Publisher<lsl_bridge::msg::Emg[01;31m[K>[m[K::SharedPtr publisher_;
+[2.496s]       |                                         [01;31m[K^[m[K
+[2.498s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.498s]    65 |   rclcpp::Publisher<lsl_bridge::msg::Emg>::[01;31m[KSharedPtr[m[K publisher_;
+[2.498s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[2.498s]       |                                                     [32m[K;[m[K
+[2.499s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.499s]    65 |   rclcpp::Publisher<lsl_bridge::msg::Emg>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.499s]       |                                                      [01;31m[K^~~~~~~~~~[m[K
+[2.499s]       |                                                      [32m[Krmw_publisher_t[m[K
+[2.500s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:[m[K In constructor ‘[01m[KLSLBridgeNode::LSLBridgeNode()[m[K’:
+[2.500s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:23:46:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kch[m[K’ from ‘[01m[Klsl::xml_element[m[K’ to ‘[01m[Kbool[m[K’
+[2.500s]    23 |     for (auto ch = ch_info.child("channel"); [01;31m[Kch[m[K; ch = ch.next_sibling("channel")) {
+[2.500s]       |                                              [01;31m[K^~[m[K
+[2.500s]       |                                              [01;31m[K|[m[K
+[2.500s]       |                                              [01;31m[Klsl::xml_element[m[K
+[2.504s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.504s]    34 |     [01;31m[Kpublisher_[m[K = this->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10);
+[2.504s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.504s]       |     [32m[Krmw_publisher_t[m[K
+[2.507s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:41:[m[K [01;31m[Kerror: [m[K‘[01m[Klsl_bridge[m[K’ was not declared in this scope
+[2.507s]    34 |     publisher_ = this->create_publisher<[01;31m[Klsl_bridge[m[K::msg::Emg>("emg_from_lsl", 10);
+[2.507s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[2.507s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.508s]    34 |     publisher_ = this->[01;31m[Kcreate_publisher<lsl_bridge::msg::Emg>[m[K("emg_from_lsl", 10);
+[2.508s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLSLBridgeNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+[2.508s]    34 |     publisher_ = [01;31m[Kthis->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10)[m[K;
+[2.508s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.508s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.508s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.508s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.508s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1[m[K:
+[2.509s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.509s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.509s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.509s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.509s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.509s]    34 |     publisher_ = [01;31m[Kthis->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10)[m[K;
+[2.509s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.514s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:[m[K In member function ‘[01m[Kvoid LSLBridgeNode::timer_callback()[m[K’:
+[2.514s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klsl_bridge[m[K’ has not been declared
+[2.514s]    55 |     [01;31m[Klsl_bridge[m[K::msg::Emg msg;
+[2.514s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.514s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.514s]    56 |     [01;31m[Kmsg[m[K.header.stamp = this->now();
+[2.514s]       |     [01;31m[K^~~[m[K
+[2.515s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:56:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.515s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.516s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1[m[K:
+[2.516s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.516s]    27 | namespace [01;36m[Kmsg[m[K
+[2.516s]       |           [01;36m[K^~~[m[K
+[2.516s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.516s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.516s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1[m[K:
+[2.516s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.517s]    27 | namespace [01;36m[Kmsg[m[K
+[2.517s]       |           [01;36m[K^~~[m[K
+[2.517s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.517s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1[m[K:
+[2.517s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.517s]    27 | namespace [01;36m[Kmsg[m[K
+[2.517s]       |           [01;36m[K^~~[m[K
+[2.518s] In file included from [01m[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/eeg.hpp:7[m[K,
+[2.518s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3[m[K:
+[2.518s] [01m[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/detail/eeg__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Klsl::msg[m[K’
+[2.518s]    31 | namespace [01;36m[Kmsg[m[K
+[2.518s]       |           [01;36m[K^~~[m[K
+[2.518s] In file included from [01m[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/detail/eeg__struct.hpp:20[m[K,
+[2.518s]                  from [01m[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/eeg.hpp:7[m[K,
+[2.518s]                  from [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3[m[K:
+[2.518s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.518s]    31 | namespace [01;36m[Kmsg[m[K
+[2.518s]       |           [01;36m[K^~~[m[K
+[2.518s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.518s]    61 |     [01;31m[Kpublisher_[m[K->publish(msg);
+[2.518s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.518s]       |     [32m[Krmw_publisher_t[m[K
+[2.805s] gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] エラー 1
+[2.806s] gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/EEG_Stream_to_ROS.dir/all] エラー 2
+[2.806s] gmake: *** [Makefile:146: all] エラー 2
+[2.809s] Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22

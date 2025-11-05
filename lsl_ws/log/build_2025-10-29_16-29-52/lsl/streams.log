@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/aokilab/lab/lsl_ws/build/lsl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22
+[0.033s] [  2%] Built target lsl__cpp
+[0.035s] [ 11%] Built target lsl__rosidl_generator_c
+[0.035s] [ 11%] Built target ament_cmake_python_symlink_lsl
+[0.039s] [ 17%] Built target lsl_node
+[0.042s] [ 25%] Built target lsl__rosidl_typesupport_fastrtps_cpp
+[0.042s] [ 34%] Built target lsl__rosidl_typesupport_cpp
+[0.043s] [ 42%] Built target lsl__rosidl_typesupport_c
+[0.043s] [ 51%] Built target lsl__rosidl_typesupport_introspection_c
+[0.043s] [ 60%] Built target lsl__rosidl_typesupport_fastrtps_c
+[0.043s] [ 68%] Built target lsl__rosidl_typesupport_introspection_cpp
+[0.051s] [ 68%] Built target lsl
+[0.055s] [ 71%] [32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o[0m
+[0.059s] [ 74%] Built target lsl__py
+[0.068s] [ 80%] Built target lsl__rosidl_generator_py
+[0.077s] [ 91%] Built target lsl__rosidl_typesupport_introspection_c__pyext
+[0.077s] [ 91%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext
+[0.077s] [ 97%] Built target lsl__rosidl_typesupport_c__pyext
+[0.185s] running egg_info
+[0.186s] writing lsl.egg-info/PKG-INFO
+[0.186s] writing dependency_links to lsl.egg-info/dependency_links.txt
+[0.186s] writing top-level names to lsl.egg-info/top_level.txt
+[0.187s] reading manifest file 'lsl.egg-info/SOURCES.txt'
+[0.187s] writing manifest file 'lsl.egg-info/SOURCES.txt'
+[0.202s] [ 97%] Built target ament_cmake_python_build_lsl_egg
+[1.216s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:[m[K In constructor ‘[01m[KEEGStreamNode::EEGStreamNode()[m[K’:
+[1.217s] [01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:24:8:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kch[m[K’ from ‘[01m[Klsl::xml_element[m[K’ to ‘[01m[Kbool[m[K’
+[1.217s]    24 | while ([01;31m[Kch[m[K) {
+[1.217s]       |        [01;31m[K^~[m[K
+[1.217s]       |        [01;31m[K|[m[K
+[1.217s]       |        [01;31m[Klsl::xml_element[m[K
+[1.693s] gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] エラー 1
+[1.693s] gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/EEG_Stream_to_ROS.dir/all] エラー 2
+[1.694s] gmake: *** [Makefile:146: all] エラー 2
+[1.696s] Invoked command in '/home/aokilab/lab/lsl_ws/build/lsl' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aokilab/lab/lsl_ws/build/lsl -- -j22 -l22

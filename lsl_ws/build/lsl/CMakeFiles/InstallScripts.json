@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/aokilab/lab/lsl_ws/build/lsl/cmake_install.cmake",
+		"/home/aokilab/lab/lsl_ws/build/lsl/lsl__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

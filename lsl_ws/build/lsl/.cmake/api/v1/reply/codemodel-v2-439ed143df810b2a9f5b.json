@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-515ba40857c6ce651967.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "lsl__py",
+					"jsonFile" : "directory-lsl__py-703e48b4d4924b194289.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aokilab/lab/lsl_ws/build/lsl/lsl__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lsl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EEG_Stream_to_ROS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EEG_Stream_to_ROS-0106c922383edfe51a15.json",
+					"name" : "EEG_Stream_to_ROS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lsl_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lsl_egg-ad9f1d25dda08b983bfe.json",
+					"name" : "ament_cmake_python_build_lsl_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_lsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_lsl-441f3818293d23eda611.json",
+					"name" : "ament_cmake_python_symlink_lsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl-527eba7bb8aaf197f47f.json",
+					"name" : "lsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__cpp-01da7e876c45878db177.json",
+					"name" : "lsl__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lsl__py::@1e501ce4995ab4e68656",
+					"jsonFile" : "target-lsl__py-85927a88d3ff76b47294.json",
+					"name" : "lsl__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_generator_c-b1b607166904c235cb8b.json",
+					"name" : "lsl__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_generator_py-167e1d0cbe63162b9d8a.json",
+					"name" : "lsl__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_c-4ea2cc3d5fb0028e27a5.json",
+					"name" : "lsl__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_c__pyext-a89487984f3c59390999.json",
+					"name" : "lsl__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_cpp-f953d9de94e1f98385b3.json",
+					"name" : "lsl__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_fastrtps_c-8c20b7fd499102d02b9b.json",
+					"name" : "lsl__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_fastrtps_c__pyext-a7a025c71916ccc7e179.json",
+					"name" : "lsl__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_fastrtps_cpp-1e787eecd2e744663098.json",
+					"name" : "lsl__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_introspection_c-aa91960c4edcd2d659b4.json",
+					"name" : "lsl__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_introspection_c__pyext-909b3016abe56d155dc6.json",
+					"name" : "lsl__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl__rosidl_typesupport_introspection_cpp-92c94ad1c7566473dde6.json",
+					"name" : "lsl__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl_node-3e916d5de67dc6986a8b.json",
+					"name" : "lsl_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lsl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lsl_uninstall-d29b7265a9f41f3b259f.json",
+					"name" : "lsl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-85df699b33e381f6a7ef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aokilab/lab/lsl_ws/build/lsl",
+		"source" : "/home/aokilab/lab/lsl_ws/src/lsl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

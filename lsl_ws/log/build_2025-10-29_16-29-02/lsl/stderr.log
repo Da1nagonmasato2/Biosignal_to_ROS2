@@ -1,0 +1,9 @@
+[01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:[m[K In constructor ‘[01m[KEEGStreamNode::EEGStreamNode()[m[K’:
+[01m[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:23:46:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kch[m[K’ from ‘[01m[Klsl::xml_element[m[K’ to ‘[01m[Kbool[m[K’
+   23 |     for (auto ch = ch_info.child("channel"); [01;31m[Kch[m[K; ch = ch.next_sibling("channel")) {
+      |                                              [01;31m[K^~[m[K
+      |                                              [01;31m[K|[m[K
+      |                                              [01;31m[Klsl::xml_element[m[K
+gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/EEG_Stream_to_ROS.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

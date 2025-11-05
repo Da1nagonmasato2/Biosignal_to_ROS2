@@ -1,0 +1,6 @@
+{
+  "package_name": "lsl",
+  "non_idl_tuples": [
+    "/home/aokilab/lab/lsl_ws/src/lsl:msg/Eeg.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/aokilab/lab/Biosignal_to_ROS2/lsl_ws/build/lsl/CMakeCache.txt is different than the directory /home/aokilab/lab/lsl_ws/build/lsl where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

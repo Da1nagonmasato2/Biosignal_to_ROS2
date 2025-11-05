@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000314] (lsl) JobQueued: {'identifier': 'lsl', 'dependencies': OrderedDict()}
+[0.000366] (lsl) JobStarted: {'identifier': 'lsl'}
+[0.005325] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'cmake'}
+[0.006735] (lsl) JobProgress: {'identifier': 'lsl', 'progress': 'build'}
+[0.007791] (lsl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aokilab/lab/lsl_ws/build/lsl', '--', '-j22', '-l22'], 'cwd': '/home/aokilab/lab/lsl_ws/build/lsl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'aokilab'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aokilab'), ('OLDPWD', '/home/aokilab/lab/lsl_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aokilab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aokilab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aokilab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aokilab/.dotnet/tools'), ('SESSION_MANAGER', 'local/aokilab-AMR:@/tmp/.ICE-unix/2454,unix/aokilab-AMR:/tmp/.ICE-unix/2454'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7429b41c_d6fd_4b07_be44_07a72c98dd74'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/aokilab/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.86F7E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '123'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aokilab/lab/lsl_ws/build/lsl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025372] (lsl) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.025509] (lsl) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.025586] (lsl) StderrLine: {'line': b'  CMake.\n'}
+[0.025645] (lsl) StderrLine: {'line': b'\n'}
+[0.025705] (lsl) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.025757] (lsl) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.025806] (lsl) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.025841] (lsl) StderrLine: {'line': b'\n'}
+[0.025903] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[0.028867] (lsl) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099510] (-) TimerEvent: {}
+[0.152586] (lsl) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.156757] (lsl) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.172218] (lsl) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.174480] (lsl) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.177798] (lsl) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.182977] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.189745] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199568] (-) TimerEvent: {}
+[0.208887] (lsl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.209695] (lsl) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.274769] (lsl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299662] (-) TimerEvent: {}
+[0.309337] (lsl) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.399791] (-) TimerEvent: {}
+[0.500110] (-) TimerEvent: {}
+[0.585026] (lsl) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600208] (-) TimerEvent: {}
+[0.700417] (-) TimerEvent: {}
+[0.800695] (-) TimerEvent: {}
+[0.901059] (-) TimerEvent: {}
+[1.001345] (-) TimerEvent: {}
+[1.062399] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101424] (-) TimerEvent: {}
+[1.201642] (-) TimerEvent: {}
+[1.238347] (lsl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.239788] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.240012] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.240150] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.240274] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.240380] (lsl) StderrLine: {'line': b'\n'}
+[1.240479] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.240577] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.240675] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.240774] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.240870] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.240966] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.251726] (lsl) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.252103] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.252247] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.252341] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.252420] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.252494] (lsl) StderrLine: {'line': b'\n'}
+[1.252567] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.252639] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.252711] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.252783] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.252854] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.252925] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.252995] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.262680] (lsl) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.262844] (lsl) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.262934] (lsl) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.263011] (lsl) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.263085] (lsl) StderrLine: {'line': b'\n'}
+[1.263157] (lsl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.263239] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.263316] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.263389] (lsl) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.263461] (lsl) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.263539] (lsl) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.263612] (lsl) StderrLine: {'line': b'\x1b[0m\n'}
+[1.263928] (lsl) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.264063] (lsl) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.264152] (lsl) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.282326] (lsl) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.301738] (-) TimerEvent: {}
+[1.304581] (lsl) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.310235] (lsl) StdoutLine: {'line': b'-- Build files have been written to: /home/aokilab/lab/lsl_ws/build/lsl\n'}
+[1.331552] (lsl) StdoutLine: {'line': b'[  2%] Built target lsl__cpp\n'}
+[1.332282] (lsl) StdoutLine: {'line': b'[ 11%] Built target lsl__rosidl_generator_c\n'}
+[1.333779] (lsl) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_lsl\n'}
+[1.337135] (lsl) StdoutLine: {'line': b'[ 17%] Built target lsl_node\n'}
+[1.340668] (lsl) StdoutLine: {'line': b'[ 25%] Built target lsl__rosidl_typesupport_fastrtps_cpp\n'}
+[1.341138] (lsl) StdoutLine: {'line': b'[ 34%] Built target lsl__rosidl_typesupport_introspection_cpp\n'}
+[1.341487] (lsl) StdoutLine: {'line': b'[ 48%] Built target lsl__rosidl_typesupport_fastrtps_c\n'}
+[1.341521] (lsl) StdoutLine: {'line': b'[ 51%] Built target lsl__rosidl_typesupport_c\n'}
+[1.341745] (lsl) StdoutLine: {'line': b'[ 68%] Built target lsl__rosidl_typesupport_introspection_c\n'}
+[1.341776] (lsl) StdoutLine: {'line': b'[ 68%] Built target lsl__rosidl_typesupport_cpp\n'}
+[1.349245] (lsl) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o\x1b[0m\n'}
+[1.349311] (lsl) StdoutLine: {'line': b'[ 71%] Built target lsl\n'}
+[1.357275] (lsl) StdoutLine: {'line': b'[ 74%] Built target lsl__py\n'}
+[1.366768] (lsl) StdoutLine: {'line': b'[ 80%] Built target lsl__rosidl_generator_py\n'}
+[1.376529] (lsl) StdoutLine: {'line': b'[ 85%] Built target lsl__rosidl_typesupport_c__pyext\n'}
+[1.377056] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.377135] (lsl) StdoutLine: {'line': b'[ 97%] Built target lsl__rosidl_typesupport_introspection_c__pyext\n'}
+[1.401818] (-) TimerEvent: {}
+[1.469683] (lsl) StdoutLine: {'line': b'running egg_info\n'}
+[1.470050] (lsl) StdoutLine: {'line': b'writing lsl.egg-info/PKG-INFO\n'}
+[1.470408] (lsl) StdoutLine: {'line': b'writing dependency_links to lsl.egg-info/dependency_links.txt\n'}
+[1.470503] (lsl) StdoutLine: {'line': b'writing top-level names to lsl.egg-info/top_level.txt\n'}
+[1.471370] (lsl) StdoutLine: {'line': b"reading manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[1.471615] (lsl) StdoutLine: {'line': b"writing manifest file 'lsl.egg-info/SOURCES.txt'\n"}
+[1.487340] (lsl) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_lsl_egg\n'}
+[1.501923] (-) TimerEvent: {}
+[1.602228] (-) TimerEvent: {}
+[1.702564] (-) TimerEvent: {}
+[1.802886] (-) TimerEvent: {}
+[1.903274] (-) TimerEvent: {}
+[2.003679] (-) TimerEvent: {}
+[2.104002] (-) TimerEvent: {}
+[2.204326] (-) TimerEvent: {}
+[2.304662] (-) TimerEvent: {}
+[2.404995] (-) TimerEvent: {}
+[2.495978] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klsl_bridge\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.496195] (lsl) StderrLine: {'line': b'   65 |   rclcpp::Publisher<\x1b[01;31m\x1b[Klsl_bridge\x1b[m\x1b[K::msg::Emg>::SharedPtr publisher_;\n'}
+[2.496325] (lsl) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.496355] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.496380] (lsl) StderrLine: {'line': b'   65 |   rclcpp::Publisher<lsl_bridge::msg::Emg\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[2.496403] (lsl) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.498233] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.498486] (lsl) StderrLine: {'line': b'   65 |   rclcpp::Publisher<lsl_bridge::msg::Emg>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[2.498592] (lsl) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.498684] (lsl) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.499151] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:65:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.499337] (lsl) StderrLine: {'line': b'   65 |   rclcpp::Publisher<lsl_bridge::msg::Emg>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.499457] (lsl) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.499576] (lsl) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.500178] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLSLBridgeNode::LSLBridgeNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.500379] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:23:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[Kch\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Klsl::xml_element\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500500] (lsl) StderrLine: {'line': b'   23 |     for (auto ch = ch_info.child("channel"); \x1b[01;31m\x1b[Kch\x1b[m\x1b[K; ch = ch.next_sibling("channel")) {\n'}
+[2.500597] (lsl) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.500688] (lsl) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.500778] (lsl) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[Klsl::xml_element\x1b[m\x1b[K\n'}
+[2.503817] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.503969] (lsl) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10);\n'}
+[2.504057] (lsl) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.504145] (lsl) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.505102] (-) TimerEvent: {}
+[2.507398] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klsl_bridge\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.507553] (lsl) StderrLine: {'line': b'   34 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Klsl_bridge\x1b[m\x1b[K::msg::Emg>("emg_from_lsl", 10);\n'}
+[2.507642] (lsl) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.507727] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.507832] (lsl) StderrLine: {'line': b'   34 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<lsl_bridge::msg::Emg>\x1b[m\x1b[K("emg_from_lsl", 10);\n'}
+[2.507938] (lsl) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.508314] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLSLBridgeNode::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.508412] (lsl) StderrLine: {'line': b'   34 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10)\x1b[m\x1b[K;\n'}
+[2.508491] (lsl) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.508571] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.508647] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.508718] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.508790] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1\x1b[m\x1b[K:\n'}
+[2.508865] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.508944] (lsl) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.509020] (lsl) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.509094] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.509144] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:34:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.509187] (lsl) StderrLine: {'line': b'   34 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<lsl_bridge::msg::Emg>("emg_from_lsl", 10)\x1b[m\x1b[K;\n'}
+[2.509236] (lsl) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.513839] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LSLBridgeNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.513963] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:55:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klsl_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.514040] (lsl) StderrLine: {'line': b'   55 |     \x1b[01;31m\x1b[Klsl_bridge\x1b[m\x1b[K::msg::Emg msg;\n'}
+[2.514102] (lsl) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.514627] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.514731] (lsl) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.header.stamp = this->now();\n'}
+[2.514794] (lsl) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.514850] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:56:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.514912] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[2.514966] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.515019] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.515071] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[2.515123] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[2.515174] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.515236] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.515406] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.515524] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.515607] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.515664] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.515719] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.515771] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.515823] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.515875] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1\x1b[m\x1b[K:\n'}
+[2.515936] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.515999] (lsl) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.516064] (lsl) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.516130] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[2.516182] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[2.516249] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[2.516302] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[2.516356] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.516406] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.516457] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.516505] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.516558] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.516608] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.516660] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.516711] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.516761] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1\x1b[m\x1b[K:\n'}
+[2.516811] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.516867] (lsl) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.516923] (lsl) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.516976] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[2.517029] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[2.517084] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[2.517142] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.517197] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.517254] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.517304] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.517362] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.517416] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.517475] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.517525] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.517575] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.517628] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.517682] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:1\x1b[m\x1b[K:\n'}
+[2.517722] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517766] (lsl) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.517807] (lsl) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.517850] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/eeg.hpp:7\x1b[m\x1b[K,\n'}
+[2.517895] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3\x1b[m\x1b[K:\n'}
+[2.517934] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/detail/eeg__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klsl::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517972] (lsl) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.518010] (lsl) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.518046] (lsl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/detail/eeg__struct.hpp:20\x1b[m\x1b[K,\n'}
+[2.518085] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/build/lsl/rosidl_generator_cpp/lsl/msg/eeg.hpp:7\x1b[m\x1b[K,\n'}
+[2.518132] (lsl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:3\x1b[m\x1b[K:\n'}
+[2.518341] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.518436] (lsl) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[2.518489] (lsl) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.518535] (lsl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aokilab/lab/lsl_ws/src/lsl/src/EEG_Stream_to_ROS.cpp:61:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.518584] (lsl) StderrLine: {'line': b'   61 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(msg);\n'}
+[2.518628] (lsl) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518672] (lsl) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.605244] (-) TimerEvent: {}
+[2.705662] (-) TimerEvent: {}
+[2.805529] (lsl) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/EEG_Stream_to_ROS.dir/build.make:79: CMakeFiles/EEG_Stream_to_ROS.dir/src/EEG_Stream_to_ROS.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[2.805744] (-) TimerEvent: {}
+[2.805977] (lsl) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/EEG_Stream_to_ROS.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.806441] (lsl) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[2.808929] (lsl) CommandEnded: {'returncode': 2}
+[2.815435] (lsl) JobEnded: {'identifier': 'lsl', 'rc': 2}
+[2.825645] (-) EventReactorShutdown: {}
