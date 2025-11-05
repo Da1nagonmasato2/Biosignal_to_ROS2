@@ -1,0 +1,90 @@
+# realtime_emg_dxcam.py
+import dxcam
+import cv2
+import numpy as np
+import time
+import win32gui
+import win32con
+
+# ==== 対象ウィンドウのタイトル ====
+TARGET_TITLE = "ロジカルプロダクト ワイヤレスセンサモジュール Ver7.8.01_LP"
+
+# ==== キャプチャ範囲（ウィンドウ移動後のROI）====
+x_min, y_min, x_max, y_max = 92, 190, 726, 266
+origin = 78
+max_voltage = 5.0
+
+prev_frame = None
+
+# ==== 対象ウィンドウを取得 ====
+hwnd = win32gui.FindWindow(None, TARGET_TITLE)
+if hwnd == 0:
+    raise Exception(f"ウィンドウ '{TARGET_TITLE}' が見つかりません。")
+
+# ==== ウィンドウを左上に移動 ====
+win32gui.SetWindowPos(hwnd, win32con.HWND_TOP, 0, 0, 800, 600, 0)
+print(f"ウィンドウ '{TARGET_TITLE}' を画面左上に移動しました。")
+
+# ==== DXCAM カメラ作成 (GPUなし) ====
+cam = dxcam.create()  # output_idx=0 は省略可能
+
+print("\nリアルタイムEMG解析開始 (Ctrl+Cで終了)\n")
+
+try:
+    while True:
+        # ---- 画像キャプチャ ----
+        frame = cam.grab(region=(x_min, y_min, x_max, y_max))
+        if frame is None:
+            continue
+        img = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
+        _, img_otsu = cv2.threshold(img, 0, 255, cv2.THRESH_OTSU)
+
+        # ---- 差分計算 ----
+        if prev_frame is not None:
+            diff = cv2.absdiff(img_otsu, prev_frame)
+            diff_binary = cv2.threshold(diff, 50, 255, cv2.THRESH_BINARY)[1]
+        else:
+            diff_binary = np.zeros_like(img_otsu)
+        prev_frame = img_otsu.copy()
+
+        # ---- EMG値算出 ----
+        ys, xs = np.where(diff_binary == 255)
+        if len(ys) > 0:
+            y_mean = np.mean(ys)
+            emg_val = max_voltage * (1 - (y_mean / origin))
+        else:
+            emg_val = 0.0
+
+        # ---- 各ふちの平均輝度 ----
+        top_edge = np.mean(img_otsu[0, :])
+        bottom_edge = np.mean(img_otsu[-1, :])
+        left_edge = np.mean(img_otsu[:, 0])
+        right_edge = np.mean(img_otsu[:, -1])
+
+        # 白 or 黒判定
+        def edge_status(val):
+            return "白" if val > 127 else "黒"
+
+        print(
+            f"\rEMG: {emg_val:.3f} V | 上:{edge_status(top_edge)}({top_edge:.1f}) "
+            f"下:{edge_status(bottom_edge)}({bottom_edge:.1f}) "
+            f"左:{edge_status(left_edge)}({left_edge:.1f}) "
+            f"右:{edge_status(right_edge)}({right_edge:.1f})   ",
+            end=""
+        )
+
+        # ---- 可視化 ----
+        vis = cv2.cvtColor(img_otsu, cv2.COLOR_GRAY2BGR)
+        diff_vis = cv2.cvtColor(diff_binary, cv2.COLOR_GRAY2BGR)
+        combined = np.hstack((vis, diff_vis))
+        cv2.imshow("EMG Live | 差分表示", combined)
+
+        if cv2.waitKey(1) & 0xFF == 27:  # ESCで終了
+            break
+
+        time.sleep(0.01)  # 約100fps相当（CPU環境でも軽め）
+
+except KeyboardInterrupt:
+    print("\n終了しました。")
+finally:
+    cv2.destroyAllWindows()
