@@ -9,8 +9,8 @@ from pylsl import StreamInfo, StreamOutlet
 
 # ==== ROI設定 ====
 x_min, y_min, x_max, y_max = 92, 190, 726, 266
-origin = 78
-max_voltage = 0.05
+origin = (y_max - y_min) / 2  # 中央基準
+max_voltage = 1.5              # ±1.5Vレンジ
 x_range_max = 50
 
 # ==== dxcam初期化 ====
@@ -25,7 +25,7 @@ info = StreamInfo(
     channel_count=1,
     nominal_srate=30,
     channel_format='float32',
-    source_id='emg_dxcam_simple'
+    source_id='emg_dxcam_peakabs'
 )
 outlet = StreamOutlet(info)
 print("✅ LSLストリーム準備完了: EMG_Stream")
@@ -33,7 +33,7 @@ print("✅ LSLストリーム準備完了: EMG_Stream")
 prev_frame = None
 prev_time = time.time()
 
-print("\nリアルタイムEMG最大値送信開始 (Ctrl+Cで終了)\n")
+print("\nリアルタイムEMGピーク送信開始 (Ctrl+Cで終了)\n")
 
 try:
     while True:
@@ -54,7 +54,7 @@ try:
             diff_binary = np.zeros_like(img_otsu)
         prev_frame = img_otsu.copy()
 
-        # ==== EMG値計算 ====
+        # ==== EMG値計算（最大・最小ピーク検出）====
         ys_diff, xs_diff = np.where(diff_binary == 255)
         if len(xs_diff) > 0:
             x_min_line = np.min(xs_diff)
@@ -66,8 +66,19 @@ try:
                 ys_line, _ = np.where((img_otsu > 127) & mask_x)
 
                 if len(ys_line) > 0:
+                    # ==== 最大・最小検出 ====
                     y_peak = np.min(ys_line)
-                    emg_val = max_voltage * (1 - (y_peak / origin))
+                    y_bottom = np.max(ys_line)
+
+                    # ==== ピクセル → 電圧変換（中央基準 ±1.5V）====
+                    emg_val_peak = max_voltage * (origin - y_peak) / origin
+                    emg_val_bottom = max_voltage * (origin - y_bottom) / origin
+
+                    # ==== 絶対値で比較して大きい方を採用 ====
+                    if abs(emg_val_peak) >= abs(emg_val_bottom):
+                        emg_val = emg_val_peak
+                    else:
+                        emg_val = emg_val_bottom
                 else:
                     emg_val = 0.0
         else:

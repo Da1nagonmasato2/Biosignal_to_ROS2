@@ -14,8 +14,8 @@ TARGET_TITLE = "ロジカルプロダクト ワイヤレスセンサモジュー
 
 # ==== ROI設定 ====
 x_min, y_min, x_max, y_max = 92, 190, 726, 266
-origin = 78
-max_voltage = 0.05
+origin = (y_max - y_min) / 2       # ROI中央
+max_voltage = 1.5                  # ±1.5Vレンジ
 x_range_max = 50
 
 # ==== ウィンドウハンドル取得 ====
@@ -37,7 +37,7 @@ info = StreamInfo(
     channel_count=1,
     nominal_srate=30,
     channel_format='float32',
-    source_id='emg_dxcam_min'
+    source_id='emg_dxcam_mean'
 )
 outlet = StreamOutlet(info)
 print("✅ LSLストリーム準備完了: EMG_Stream")
@@ -45,7 +45,7 @@ print("✅ LSLストリーム準備完了: EMG_Stream")
 prev_frame = None
 prev_time = time.time()
 
-print("\nリアルタイムEMG解析＋LSL送信開始 (Ctrl+Cで終了)\n")
+print("\nリアルタイムEMG平均値送信開始 (Ctrl+Cで終了)\n")
 
 try:
     while True:
@@ -77,7 +77,7 @@ try:
             diff_binary = np.zeros_like(img_otsu)
         prev_frame = img_otsu.copy()
 
-        # ==== EMG値計算 ====
+        # ==== EMG値計算（平均値で ±1.5Vスケール）====
         ys_diff, xs_diff = np.where(diff_binary == 255)
         if len(xs_diff) > 0:
             x_min_line = np.min(xs_diff)
@@ -89,8 +89,9 @@ try:
                 ys_line, _ = np.where((img_otsu > 127) & mask_x)
 
                 if len(ys_line) > 0:
-                    y_mean = np.mean(ys_line)
-                    emg_val = max_voltage * (1 - (y_mean / origin))
+                    y_mean = np.mean(ys_line)   # 平均値
+                    # ★ 中央基準で ±1.5V にスケーリング
+                    emg_val = max_voltage * (origin - y_mean) / origin
                 else:
                     emg_val = 0.0
         else:
@@ -99,12 +100,12 @@ try:
         # ==== LSL送信 ====
         outlet.push_sample([emg_val])
 
-        # ==== デバッグ出力（簡易） ====
+        # ==== デバッグ出力 ====
         current_time = time.time()
         dt = current_time - prev_time
         prev_time = current_time
         rate = 1.0 / dt if dt > 0 else 0
-        print(f"\rEMG: {emg_val:+.3f} V | {rate:4.1f} Hz ", end="")
+        print(f"\rEMG: {emg_val:+.3f} V | {rate:4.1f} Hz", end="")
 
         time.sleep(0.005)
 

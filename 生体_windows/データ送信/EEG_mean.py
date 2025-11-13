@@ -9,23 +9,25 @@ from pylsl import StreamInfo, StreamOutlet
 # ==== 対象ウィンドウのタイトル ====
 TARGET_TITLE = "EmotivPRO 4.8.10.593"
 
-# ==== 各チャンネルの設定 ====
-graph_height = 442
-x_min, x_max = 2940, 2950
-y_offsets = [82, 82 + 421, 82 + 844, 82 + 1264]  # A, B, C, D
-channels = ["A", "B", "C", "D"]
+# ==== 各チャンネル設定 ====
+graph_height = 213
+x_min, x_max = 1790, 1800
+y_offsets = [111, 111 + 242, 111 + 242*2, 111 + 242*3]  # A, B, C, D
 max_voltage = 200.0
+channels = ["A", "B", "C", "D"]
+
+# ==== 上端無視ピクセル数 ====
+skip_pixels = 5  # 一番上のグラフのみ上端を無視
 
 # ==== 全体キャプチャ範囲 ====
 y_min_all = y_offsets[0]
 y_max_all = y_offsets[-1] + graph_height
 
-# ==== 対象ウィンドウを取得 ====
+# ==== 対象ウィンドウ取得 ====
 hwnd = win32gui.FindWindow(None, TARGET_TITLE)
 if hwnd == 0:
     raise Exception(f"ウィンドウ '{TARGET_TITLE}' が見つかりません。")
 
-# ウィンドウを左上に移動
 win32gui.SetWindowPos(hwnd, win32con.HWND_TOP, 0, 0, 3072, 1920, 0)
 print(f"ウィンドウ '{TARGET_TITLE}' を画面左上に移動しました。")
 
@@ -64,7 +66,7 @@ try:
         gray_full = cv2.cvtColor(frame_full, cv2.COLOR_RGB2GRAY)
         emg_values = []
 
-        for y_min_local in y_offsets:
+        for i, y_min_local in enumerate(y_offsets):
             y0 = y_min_local - y_min_all
             y1 = y0 + graph_height
             y_center = graph_height / 2
@@ -73,19 +75,28 @@ try:
             roi_inv = cv2.bitwise_not(roi_gray)
             _, roi_bin = cv2.threshold(roi_inv, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-            col_pixels = roi_bin[:, -1]  # 右端列の白画素
+            # 一番上のグラフのみ上端 skip_pixels 無視
+            if i == 0:
+                col_pixels = roi_bin[skip_pixels:, -1]
+                y_offset = skip_pixels
+            else:
+                col_pixels = roi_bin[:, -1]
+                y_offset = 0
+
             ys = np.where(col_pixels == 255)[0]
 
             if len(ys) > 0:
-                y_mean = np.mean(ys)
+                y_mean = np.mean(ys) + y_offset
                 emg_val = -max_voltage * ((y_mean - y_center) / y_center)
             else:
                 emg_val = 0.0
 
             emg_values.append(emg_val)
 
+        # ==== LSL送信 ====
         outlet.push_sample(emg_values)
 
+        # ==== FPS表示 ====
         frame_count += 1
         now = time.time()
         if now - last_time >= 1.0:
