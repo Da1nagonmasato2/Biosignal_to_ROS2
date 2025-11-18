@@ -17,6 +17,11 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>eeg_msgs</depend>
+ 
+  
+
+
+
 
   <!-- interface パッケージとして登録 -->
   <export>

@@ -15,6 +15,7 @@ include_directories(${LSL_INCLUDE_DIR})
 # ===== メッセージ生成 =====
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Eeg.msg"
+ 
   DEPENDENCIES std_msgs
 )
 
@@ -32,6 +33,7 @@ target_link_libraries(EEG_Stream_to_ROS ${LSL_LIB})
 
 rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
 target_link_libraries(EEG_Stream_to_ROS "${cpp_typesupport_target}") 
+target_link_libraries(lsl_node "${cpp_typesupport_target}") 
 
 
 # ===== インストール =====
