@@ -10,9 +10,9 @@ TARGET_TITLE = "EmotivPRO 4.8.10.593"
 
 # ==== グラフ設定 ====
 # 縦に4つ並んでいると仮定
-graph_height = 442
-x_min, x_max = 2900, 2950
-y_offsets = [82, 82 + 421, 82 + 844, 82 + 1264]  # A, B, C, D
+graph_height = 213
+x_min, x_max = 1790, 1800
+y_offsets = [111, 111 + 242, 111 + 242*2, 111 + 242*3]  # A, B, C, D
 max_voltage = 200.0
 channels = ["A", "B", "C", "D"]
 
@@ -26,7 +26,7 @@ if hwnd == 0:
     raise Exception(f"ウィンドウ '{TARGET_TITLE}' が見つかりません。")
 
 # ウィンドウを左上に移動
-win32gui.SetWindowPos(hwnd, win32con.HWND_TOP, 0, 0, 3072, 1920, 0)
+win32gui.SetWindowPos(hwnd, win32con.HWND_TOP, 0, 0, 1920, 1200, 0)
 print(f"ウィンドウ '{TARGET_TITLE}' を画面左上に移動しました。")
 
 # ==== dxcam初期化 ====
